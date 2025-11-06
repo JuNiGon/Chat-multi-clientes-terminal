@@ -7,7 +7,7 @@ import sys
 ENC = "utf-8"
 
 try:
-    raw_input
+    input #raw_input
 except NameError:
     raw_input = input
 
